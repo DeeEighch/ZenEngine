@@ -1,13 +1,21 @@
 #ifndef GAME_ENGINE_HPP
 #define GAME_ENGINE_HPP
-#include "defines.hpp"
-namespace zen {
+#include <string>
+#include <map>
 
-    class LIB_API GameEngine
+#include "defines.hpp"
+#include "EngineComponent.hpp"
+namespace zen {
+    class LIB_API GameEngine final
     {
+        std::map<EngineComponent::Type, EngineComponent* > m_components;
     public:
         GameEngine();
-        uint getVersion();
+
+        std::string getVersion();
+        int registerComponent(EngineComponent* component);
+        EngineComponent* asquireComponent(EngineComponent::Type type);
+        ~GameEngine();
     };
 
 }

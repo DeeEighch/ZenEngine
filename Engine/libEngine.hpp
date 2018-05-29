@@ -3,6 +3,7 @@
 #include "defines.hpp"
 
 #include "zen/GameEngine.hpp"
+#include "zen/EngineComponent.hpp"
 #include "zen/utils/performancetimer.hpp"
 
 #endif // LIB_ENGINE_HPP
