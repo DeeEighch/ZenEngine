@@ -7,7 +7,7 @@ namespace zen {
     {
     public:
         GameEngine();
-        int getVersion();
+        uint getVersion();
     };
 
 }

@@ -14,11 +14,12 @@ staticlib {
 
 SOURCES += \
     libEngine.cpp \
-    GameEngine.cpp \
-    performancetimer.cpp
+    zen/GameEngine.cpp \
+    zen/utils/performancetimer.cpp
 
 HEADERS += \
-    performancetimer.hpp \
     defines.hpp \
-    GameEngine.hpp \
-    libEngine.hpp
+    types.hpp \
+    libEngine.hpp \
+    zen/GameEngine.hpp \
+    zen/utils/performancetimer.hpp

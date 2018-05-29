@@ -2,7 +2,7 @@
 #define LIB_ENGINE_HPP
 #include "defines.hpp"
 
-#include "GameEngine.hpp"
-#include "performancetimer.hpp"
+#include "zen/GameEngine.hpp"
+#include "zen/utils/performancetimer.hpp"
 
 #endif // LIB_ENGINE_HPP

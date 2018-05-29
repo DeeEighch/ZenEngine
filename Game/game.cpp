@@ -8,6 +8,6 @@ int main()
 {
     PerformanceTimer timer;
 
-    cout << "GameEngine Version: " << GameEngine().getVersion() << "\ttime = " << timer << endl;
+    cout << "ZenEngine Version: " << GameEngine().getVersion() << "\ttime = " << timer << endl;
     return 0;
 }

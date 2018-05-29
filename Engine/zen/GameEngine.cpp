@@ -6,7 +6,7 @@ namespace zen {
 
     }
 
-    int GameEngine::getVersion()
+    uint GameEngine::getVersion()
     {
         return GIT_VERSION;
     }

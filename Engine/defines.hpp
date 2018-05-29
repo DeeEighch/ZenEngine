@@ -11,4 +11,6 @@
 #   define LIB_API
 #endif
 
+#include "types.hpp"
+
 #endif // DEFINES_HPP
